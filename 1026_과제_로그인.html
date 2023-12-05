@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <style>
+        .main {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .first {
+            margin-right: 30px;
+        }
+        
+        .second {
+            float: left;
+            width: 350px;
+            height: 580px;
+            position: relative;
+            top: 10px;
+        }
+        .second1 {
+            border: solid 1px lightgray;
+            width: 350px;
+            height: 401px;
+            margin-bottom: 10px;
+        }
+        .second1_1 {
+            padding-top: 45px;
+            padding-left: 87.5px;
+            padding-bottom: 30px;
+        }
+        input {
+            width: 258px;
+            height: 36px;
+            border: solid 1px lightgray;
+            border-radius: 3px;
+            background-color: #FAFAFA;
+            padding-left: 10px;
+            margin-left: 40px;
+            margin-bottom: 13px;
+        }
+    
+        .second1_2_1 {
+            width: 268px;
+            height: 15px;
+            margin-left: 41px;
+            margin-top: 17px;
+        }
+        .second1_2_2 {
+            width: 183px;
+            height: 10px;
+            margin-left: 78px;
+            margin-top: 30px;
+        }
+
+        .second2 {
+            border: solid 1px lightgray;
+            width: 350px;
+            height: 63px;
+        }
+        a {
+            margin: 5px;
+            text-decoration: none;
+            color: gray;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="first">
+            <img src="/img/phone.gif">
+        </div>
+        
+        
+        <div class="second">
+            <div class="second1">
+                <div class="second1_1">
+                    <img src="/img/logo.png">
+                </div>
+
+                <div class="second1_2">
+                    <form>
+                        <input type="text" 
+                        placeholder="전화번호, 사용자 이름 또는 이메일" 
+                        maxlength="75" 
+                        style="margin-bottom: 5px;">
+                        
+                        <input type="password" 
+                        placeholder="비밀번호" 
+                        maxlength="75">
+                        
+                        <button type="button" onClick="location.href='/1026_과제_홈.html'"
+                        style="width: 271px;
+                        height: 33px;
+                        font-weight: bold;
+                        color: white;
+                        background-color: rgb(0, 149, 246);
+                        border: solid 1px rgb(0, 149, 246);
+                        border-radius: 8px;
+                        margin-left: 40px;">로그인</button>
+                        
+                        <div class="second1_2_1">
+                            <div style="width: 110px;
+                            text-decoration: line-through;
+                            float: inline-start;">
+                                <hr color="lightgray" size="0.7">
+                            </div>
+                            
+                            <div style="text-align: center;
+                            font-size: 13.5px;
+                            font-weight: bold;
+                            color: gray;
+                            width: 29px;
+                            float: left;
+                            margin-left: 10px;">또는</div>
+
+                            <div style="width: 110px;
+                            text-decoration: line-through;
+                            float: inline-end;">
+                                <hr color="lightgray" size="0.7">
+                            </div>
+                        </div>
+                        
+                        <button type="button" onclick="location.href='https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Dko_KR%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25221tnggry1auxhcw1uez1ih1uwtj6w4b04nm1qhu99613alf0sm68fic%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D521f07eb-089d-4fcc-bdcc-4965e99f8e7d%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221tnggry1auxhcw1uez1ih1uwtj6w4b04nm1qhu99613alf0sm68fic%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=ko_KR&pl_dbl=0'" 
+                        style="border: 0;
+                        background-color: white;
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #385185;
+                        display: inline-block;
+                        position: relative;
+                        left: 95px;
+                        top: 23px;
+                        cursor: pointer;">
+                            <img src="/img/facebook.png" style="float: left;
+                            position: relative;
+                            top: 2.5px;
+                            right: 7px;">
+                            Facebook으로 로그인
+                        </button>    
+                        
+                        <a href="https://www.instagram.com/accounts/password/reset/" 
+                        style="position: relative;
+                        top: 62px;
+                        right: 73px;
+                        text-decoration: none;
+                        color:rgb(0, 55, 107);
+                        font-size: 13px;">
+                            비밀번호를 잊으셨나요?
+                        </a>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="second2">
+                <p style="float: left;
+                position: relative;
+                top: 4.5px;
+                left: 60px;">계정이 없으신가요?</p>
+                <a href="https://www.instagram.com/accounts/emailsignup/" 
+                style="position: relative;
+                top: 20px;
+                left: 65px;
+                text-decoration: none;
+                color: rgb(0, 149, 246);
+                font-weight: bold;">가입하기</a>
+            </div>
+
+            <p style="text-align: center;">앱을 다운로드하세요.</p>
+            <div style="display: flex;
+            position: relative;
+            left: 45px;
+            bottom: 5px;">
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DC7C03FBE-BD5F-49DD-B106-C2F4CBE1E907%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps://www.google.com/&pli=1" 
+                target="_blank" 
+                style="margin-right: 5px;">
+                    <img src="/img/google_play.png">
+                </a>
+                <a href="https://apps.microsoft.com/detail/instagram/9NBLGGH5L9XT?hl=ko-kr&gl=KR" target="_blank" 
+                style="margin-left: 5px;">
+                    <img src="/img/microsoft.png">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="margin-top: 50px;">
+        <div style="display: flex;
+        justify-content: center;">
+            <a href="https://about.meta.com/" target="_blank">Meta</a>
+            <a href="https://about.instagram.com/" target="_blank">소개</a>
+            <a href="https://about.instagram.com/blog" target="_blank">블로그</a>
+            <a href="https://about.instagram.com/about-us/careers">채용 정보</a>
+            <a href="https://help.instagram.com/" target="_blank">도움말</a>
+            <a href="https://developers.facebook.com/docs/instagram" target="_blank">API</a>
+            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">개인정보처리방침</a>
+            <a href="https://help.instagram.com/581066165581870/">약관</a>
+            <a href="https://www.instagram.com/explore/locations/">위치</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://www.threads.net/login" target="_blank">Threads</a>
+            <a href="https://www.facebook.com/help/instagram/261704639352628">연락처 업로드 & 비사용자</a>
+            <a href="https://about.meta.com/technologies/meta-verified/" target="_blank">Meta Verified</a>
+        </div>
+
+        <div style="display: flex;
+        justify-content: center;">
+            <div style="display: flex;">
+                <select style="border: 0;
+                width: 65px;
+                cursor: pointer;
+                margin: 5px;
+                color: gray;
+                font-size: 13px;">
+                    <option>Afrikaans</option>
+                    <option>Čeština</option>
+                    <option>Dansk</option>
+                    <option>Deutsch</option>
+                    <option>Ελληνικά</option>
+                    <option>English</option>
+                    <option>English (UK)</option>
+                    <option>Español (España)</option>
+                    <option>Español</option>
+                    <option>Suomi</option>
+                    <option>Français</option>
+                    <option>Bahasa Indonesia</option>
+                    <option>Italiano</option>
+                    <option>日本語</option>
+                    <option selected>한국어</option>
+                    <option>Bahasa Melayu</option>
+                    <option>Norsk</option>
+                    <option>Nederlands</option>
+                    <option>Polski</option>
+                    <option>Português (Brasil)</option>
+                    <option>Português (Portugal)</option>
+                    <option>Русский</option>
+                    <option>Svenska</option>
+                    <option>ภาษาไทย</option>
+                    <option>Filipino</option>
+                    <option>Türkçe</option>
+                    <option>中文(简体)</option>
+                    <option>中文(台灣)</option>
+                    <option>বাংলা</option>
+                    <option>ગુજરાતી</option>
+                    <option>हिन्दी</option>
+                    <option>Hrvatski</option>
+                    <option>Magyar</option>
+                    <option>ಕನ್ನಡ</option>
+                    <option>മലയാളം</option>
+                    <option>मराठी</option>
+                    <option>Slovenčina</option>
+                    <option>Български</option>
+                    <option>Română</option>
+                    <option>Српски</option>
+                    <option>Українська</option>
+                </select>
+                <p style="margin: 5px;
+                color: gray;
+                font-size: 13px;">
+                    © 2023 Instagram from Meta
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
